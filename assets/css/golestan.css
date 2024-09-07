@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: iransans;
+  text-align: justify;
+}
+@font-face {
+  font-family: iransans;
+  src: url("../fonts/IRANSansWeb-Light.ttf");
+  src: url("../fonts/IRANSansWeb-Light.woff");
+  src: url("../fonts/IRANSansWeb-Light.woff2");
+}
+hr {
+  margin: 30px;
+}
+button {
+  color: rgb(141, 140, 140);
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(214, 210, 210);
+  font-family: iransans;
+  background-color: white;
+  transition: all 400ms;
+  cursor: pointer;
+  &:hover {
+    background-color: red;
+    color: white;
+  }
+}
+p {
+  color: rgb(152, 152, 152);
+  span {
+    color: red;
+  }
+}
+
+header {
+  width: 100%;
+  background: url("../img/heaer1.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: sticky;
+  top: 0;
+  font-size: 15px;
+  z-index: 9999;
+  img {
+    position: relative;
+    top: 50px;
+    left: 40px;
+  }
+  nav {
+    display: flex;
+    .menu_item {
+      color: rgb(153, 153, 153);
+      text-decoration: none;
+      border-left: 0.5px solid rgb(153, 153, 153);
+      padding: 0 10px;
+      position: relative;
+      cursor: pointer;
+      transition: 400ms;
+      &:hover {
+        color: rgb(255, 255, 255);
+      }
+      .sub_menu {
+        position: absolute;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        background: url("../img/heaer1.png");
+        .sub_menu_item {
+          padding: 5px 15px;
+          white-space: nowrap;
+          text-decoration: none;
+          color: lightgrey;
+          transition: 400ms;
+          &:hover {
+            color: rgb(255, 255, 255);
+          }
+        }
+      }
+
+      &:hover {
+        transition: 400ms;
+
+        .sub_menu {
+          display: flex;
+        }
+      }
+    }
+    a:last-of-type{
+      border: none;
+    }
+  }
+}
+main {
+  .ghorekeshi {
+    background-image: linear-gradient(to bottom, white, lightgray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+
+    .matntea {
+      width: 400px;
+
+      h1 {
+        color: red;
+      }
+      h3 {
+        color: rgb(153, 153, 153);
+      }
+
+      h2,
+      h3,
+      p,
+      button {
+        margin-top: 13px;
+      }
+    }
+  }
+  .matn2 {
+    line-height: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    div,
+    h4,
+    p {
+      padding-top: 35px;
+    }
+    div {
+      span {
+        color: red;
+      }
+
+      h4 {
+        color: red;
+        font-size: 20px;
+      }
+      p {
+        color: gray;
+      }
+    }
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 140px 0px;
+
+    div {
+      color: rgb(160, 160, 160);
+      border-bottom: 1px solid rgb(199, 199, 199);
+    }
+  }
+  .golestan {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    border-bottom: 20px solid #e9d69f;
+    position: relative;
+    .title {
+      width: 300px;
+      padding: 10px;
+      text-align: right;
+      color: white;
+      background-color: red;
+      position: absolute;
+      bottom: -20px;
+      right: 300px;
+    }
+  }
+
+  .mahsolat {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px;
+
+    h3,
+    button,
+    p {
+      margin-top: 30px;
+    }
+    h3 {
+      color: red;
+    }
+  }
+  .nuts {
+    background-image: url("../img/golestan-nuts.jpg");
+  }
+  .rice {
+    background-image: url("../img/golestan-rice.jpg");
+  }
+
+  .tea {
+    background-image: url("../img/golestan-tea.jpg");
+  }
+
+  .cookimg {
+    width: 100%;
+    height: 200px;
+    background: url("../img/baner1.png") center center/80% fixed;
+  }
+  .majale {
+    color: red;
+    font-size: 20px;
+    margin: 30px auto;
+    width: 700px;
+    height: 100px;
+  }
+  .majalegolestan {
+    width: 100%;
+    padding: 50px;
+    background-color: #cde4b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .parentscard {
+      background-color: white;
+      width: 300px;
+      box-shadow: 0px 0px 10px rgb(142, 142, 142);
+      img,
+      ifram {
+        width: 100%;
+      }
+      div {
+        padding: 40px;
+        h3 {
+          color: red;
+        }
+        h3,
+        p,
+        button {
+          margin-top: 15px;
+        }
+      }
+    }
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+    }
+  }
+
+  .video {
+    background-color: white;
+    .video2 {
+      width: 350px;
+      div {
+        padding: 20px;
+      }
+    }
+  }
+  .golestan_social {
+    width: 100%;
+    background-color: #105153;
+    border-bottom: 20px solid #e9d69f;
+   height: 500px;
+    .top {
+      text-align: center;
+
+      padding-top: 200px;
+      p {
+        color: white;
+        font-size: 10px;
+        opacity: 80%;
+      }
+    }
+    .bottom{
+      position: relative;
+      text-align: center;
+      border-top:1px solid #00d8df ;
+      .span1{
+        color: #009da2;
+        font-size: 25px;
+      }
+      .span2{
+        color: #00d8df;
+      }
+      img{
+position: absolute;       
+top: 70px;
+left: 750px;
+
+      }
+    }
+  }
+  .social{
+    padding-top: 100px;
+  }
+ 
+}
+footer{
+  padding-top: 100px;
+  .end {
+    font-family: iransans;
+    width: 100%;
+   
+    background-image: url(../img/heaer1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    font-size: 12px;
+    .h2list {
+      color: #a8a6a6;
+      list-style: none;
+      border-bottom: 1px solid;
+      border-top: 1px solid;
+      padding: 10px;
+      margin: 10px;
+    }
+    .li1 {
+      list-style: none;
+      color: lightgray;
+      cursor: pointer;
+      &:hover {
+
+        color: white;
+      }
+    }
+  }
+  .red {
+    height: 20px;
+    background-color: red;
+  }
+  .neveshte {
+    width: 100%;
+   padding-top: 60px;
+    background-image: url(../img/heaer1.png);
+    text-align: center;
+    color: rgb(170, 170, 170);
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "name": "swiper",
+  "version": "11.1.10",
+  "description": "Most modern mobile touch slider and framework with hardware accelerated transitions",
+  "typings": "swiper.d.ts",
+  "type": "module",
+  "main": "./swiper.mjs",
+  "module": "./swiper.mjs",
+  "exports": {
+    ".": {
+      "types": "./swiper.d.ts",
+      "default": "./swiper.mjs"
+    },
+    "./effect-utils": {
+      "types": "./swiper-effect-utils.d.ts",
+      "default": "./swiper-effect-utils.mjs"
+    },
+    "./core": {
+      "types": "./swiper.d.ts",
+      "default": "./swiper.mjs"
+    },
+    "./bundle": {
+      "types": "./swiper.d.ts",
+      "default": "./swiper-bundle.mjs"
+    },
+    "./css": "./swiper.css",
+    "./css/bundle": "./swiper-bundle.css",
+    "./swiper-bundle.css": "./swiper-bundle.css",
+    "./css/a11y": "./modules/a11y.css",
+    "./css/autoplay": "./modules/autoplay.css",
+    "./css/controller": "./modules/controller.css",
+    "./css/effect-coverflow": "./modules/effect-coverflow.css",
+    "./css/effect-cube": "./modules/effect-cube.css",
+    "./css/effect-fade": "./modules/effect-fade.css",
+    "./css/effect-flip": "./modules/effect-flip.css",
+    "./css/effect-creative": "./modules/effect-creative.css",
+    "./css/effect-cards": "./modules/effect-cards.css",
+    "./css/free-mode": "./modules/free-mode.css",
+    "./css/grid": "./modules/grid.css",
+    "./css/hash-navigation": "./modules/hash-navigation.css",
+    "./css/history": "./modules/history.css",
+    "./css/keyboard": "./modules/keyboard.css",
+    "./css/manipulation": "./modules/manipulation.css",
+    "./css/mousewheel": "./modules/mousewheel.css",
+    "./css/navigation": "./modules/navigation.css",
+    "./css/pagination": "./modules/pagination.css",
+    "./css/parallax": "./modules/parallax.css",
+    "./css/scrollbar": "./modules/scrollbar.css",
+    "./css/thumbs": "./modules/thumbs.css",
+    "./css/virtual": "./modules/virtual.css",
+    "./css/zoom": "./modules/zoom.css",
+    "./less": "./swiper.less",
+    "./less/a11y": "./modules/a11y.less",
+    "./less/autoplay": "./modules/autoplay.less",
+    "./less/controller": "./modules/controller.less",
+    "./less/effect-coverflow": "./modules/effect-coverflow.less",
+    "./less/effect-cube": "./modules/effect-cube.less",
+    "./less/effect-fade": "./modules/effect-fade.less",
+    "./less/effect-flip": "./modules/effect-flip.less",
+    "./less/effect-creative": "./modules/effect-creative.less",
+    "./less/effect-cards": "./modules/effect-cards.less",
+    "./less/free-mode": "./modules/free-mode.less",
+    "./less/grid": "./modules/grid.less",
+    "./less/hash-navigation": "./modules/hash-navigation.less",
+    "./less/history": "./modules/history.less",
+    "./less/keyboard": "./modules/keyboard.less",
+    "./less/manipulation": "./modules/manipulation.less",
+    "./less/mousewheel": "./modules/mousewheel.less",
+    "./less/navigation": "./modules/navigation.less",
+    "./less/pagination": "./modules/pagination.less",
+    "./less/parallax": "./modules/parallax.less",
+    "./less/scrollbar": "./modules/scrollbar.less",
+    "./less/thumbs": "./modules/thumbs.less",
+    "./less/virtual": "./modules/virtual.less",
+    "./less/zoom": "./modules/zoom.less",
+    "./scss": "./swiper.scss",
+    "./scss/a11y": "./modules/a11y.scss",
+    "./scss/autoplay": "./modules/autoplay.scss",
+    "./scss/controller": "./modules/controller.scss",
+    "./scss/effect-coverflow": "./modules/effect-coverflow.scss",
+    "./scss/effect-cube": "./modules/effect-cube.scss",
+    "./scss/effect-fade": "./modules/effect-fade.scss",
+    "./scss/effect-flip": "./modules/effect-flip.scss",
+    "./scss/effect-creative": "./modules/effect-creative.scss",
+    "./scss/effect-cards": "./modules/effect-cards.scss",
+    "./scss/free-mode": "./modules/free-mode.scss",
+    "./scss/grid": "./modules/grid.scss",
+    "./scss/hash-navigation": "./modules/hash-navigation.scss",
+    "./scss/history": "./modules/history.scss",
+    "./scss/keyboard": "./modules/keyboard.scss",
+    "./scss/manipulation": "./modules/manipulation.scss",
+    "./scss/mousewheel": "./modules/mousewheel.scss",
+    "./scss/navigation": "./modules/navigation.scss",
+    "./scss/pagination": "./modules/pagination.scss",
+    "./scss/parallax": "./modules/parallax.scss",
+    "./scss/scrollbar": "./modules/scrollbar.scss",
+    "./scss/thumbs": "./modules/thumbs.scss",
+    "./scss/virtual": "./modules/virtual.scss",
+    "./scss/zoom": "./modules/zoom.scss",
+    "./element": {
+      "types": "./swiper-element.d.ts",
+      "default": "./swiper-element.mjs"
+    },
+    "./element/bundle": {
+      "types": "./swiper-element.d.ts",
+      "default": "./swiper-element-bundle.mjs"
+    },
+    "./element-bundle": {
+      "types": "./swiper-element.d.ts",
+      "default": "./swiper-element-bundle.mjs"
+    },
+    "./element/css/a11y": "./modules/a11y-element.css",
+    "./element/css/autoplay": "./modules/autoplay-element.css",
+    "./element/css/controller": "./modules/controller-element.css",
+    "./element/css/effect-coverflow": "./modules/effect-coverflow-element.css",
+    "./element/css/effect-cube": "./modules/effect-cube-element.css",
+    "./element/css/effect-fade": "./modules/effect-fade-element.css",
+    "./element/css/effect-flip": "./modules/effect-flip-element.css",
+    "./element/css/effect-creative": "./modules/effect-creative-element.css",
+    "./element/css/effect-cards": "./modules/effect-cards-element.css",
+    "./element/css/free-mode": "./modules/free-mode-element.css",
+    "./element/css/grid": "./modules/grid-element.css",
+    "./element/css/hash-navigation": "./modules/hash-navigation-element.css",
+    "./element/css/history": "./modules/history-element.css",
+    "./element/css/keyboard": "./modules/keyboard-element.css",
+    "./element/css/manipulation": "./modules/manipulation-element.css",
+    "./element/css/mousewheel": "./modules/mousewheel-element.css",
+    "./element/css/navigation": "./modules/navigation-element.css",
+    "./element/css/pagination": "./modules/pagination-element.css",
+    "./element/css/parallax": "./modules/parallax-element.css",
+    "./element/css/scrollbar": "./modules/scrollbar-element.css",
+    "./element/css/thumbs": "./modules/thumbs-element.css",
+    "./element/css/virtual": "./modules/virtual-element.css",
+    "./element/css/zoom": "./modules/zoom-element.css",
+    "./react": {
+      "types": "./swiper-react.d.ts",
+      "default": "./swiper-react.mjs"
+    },
+    "./vue": {
+      "types": "./swiper-vue.d.ts",
+      "default": "./swiper-vue.mjs"
+    },
+    "./modules": {
+      "types": "./types/modules/index.d.ts",
+      "default": "./modules/index.mjs"
+    },
+    "./types": "./types/index.d.ts",
+    "./package.json": "./package.json"
+  },
+  "typesVersions": {
+    "*": {
+      "modules": [
+        "./types/modules/index.d.ts"
+      ],
+      "element": [
+        "./swiper-element.d.ts"
+      ],
+      "element/bundle": [
+        "./swiper-element.d.ts"
+      ],
+      "react": [
+        "./swiper-react.d.ts"
+      ],
+      "vue": [
+        "./swiper-vue.d.ts"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolimits4web/Swiper.git"
+  },
+  "keywords": [
+    "swiper",
+    "swipe",
+    "slider",
+    "touch",
+    "ios",
+    "mobile",
+    "cordova",
+    "phonegap",
+    "app",
+    "framework",
+    "framework7",
+    "carousel",
+    "gallery",
+    "plugin",
+    "react",
+    "vue",
+    "slideshow"
+  ],
+  "author": {
+    "name": "Vladimir Kharlampidi"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nolimits4web/swiper/issues"
+  },
+  "homepage": "https://swiperjs.com",
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/swiperjs"
+    },
+    {
+      "type": "open_collective",
+      "url": "http://opencollective.com/swiper"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.7.0"
+  },
+  "releaseDate": "August 21, 2024",
+  "_id": "swiper@11.1.10",
+  "gitHead": "b7d4a11df19c814ae076e0086729ed04e6b3095b",
+  "_nodeVersion": "18.18.0",
+  "_npmVersion": "9.8.1",
+  "dist": {
+    "integrity": "sha512-pAVM6vCb6bumj2B9aSh67l3wP1j5YR8dPQM1YhQKMpnBc33vs+RpyVz6NZYZl/ZopCBSYbbWK5nvESwbmU0QXQ==",
+    "shasum": "4d3df50ff8afc4960e9644ed6e5828d35ab38853",
+    "tarball": "https://registry.npmjs.org/swiper/-/swiper-11.1.10.tgz",
+    "fileCount": 321,
+    "unpackedSize": 3350721,
+    "signatures": [
+      {
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+        "sig": "MEUCIQCW1LWBaimQtemTjMSHTV+GyqEc/HJyGQ+4aD4gG6J5FAIgPZgeOuDTCvVSmrbzHEk4/JCHD5Zt7MOO2I3EulupFAI="
+      }
+    ]
+  },
+  "_npmUser": {
+    "name": "nolimits4web",
+    "email": "nolimits4web@gmail.com"
+  },
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "nolimits4web",
+      "email": "nolimits4web@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/swiper_11.1.10_1724233496079_0.8261050103719405"
+  },
+  "_hasShrinkwrap": false,
+  "_shasum": "4d3df50ff8afc4960e9644ed6e5828d35ab38853",
+  "_resolved": "https://registry.npmjs.org/swiper/-/swiper-11.1.10.tgz",
+  "_from": "swiper@*"
+}
